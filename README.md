@@ -48,7 +48,7 @@ By analyzing facial features, the model predicts binary traits for each factor, 
 ## Installation  
 1. **Clone the Repository**:  
    ```bash  
-   git clone https://github.com/yourusername/personality-prediction.git  
+   git clone git@github.com:affira/Personality-Predition-using-facial-images.git 
    cd personality-prediction  
    ```  
 2. **Install Dependencies**:  
