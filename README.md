@@ -59,20 +59,6 @@ By analyzing facial features, the model predicts binary traits for each factor, 
    - Extract the datasset in the main folder "Model".
    - Ensure images are formatted as 208x208 grayscale portraits.  
 
-## Usage  
-1. **Run Preprocessing**:  
-   ```bash  
-   python preprocess.py  
-   ```  
-2. **Train the Model**:  
-   ```bash  
-   python train.py  
-   ```  
-3. **Test the Model**:  
-   ```bash  
-   python test.py --image_path <path_to_image>  
-   ```  
-
 ## Results  
 - **Model Accuracy**: 87.50%  
 
