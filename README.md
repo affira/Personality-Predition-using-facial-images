@@ -56,6 +56,8 @@ By analyzing facial features, the model predicts binary traits for each factor, 
    pip install -r requirements.txt  
    ```  
 3. **Prepare the Dataset**:
+   - Download the dataset and data for training and testing from the drive.
+   - https://drive.google.com/drive/folders/1DRXzFFH_JqyCnKoJErBn7n8QVUQg5Kze?usp=sharing
    - Extract the datasset in the main folder "Model".
    - Ensure images are formatted as 208x208 grayscale portraits.  
 
