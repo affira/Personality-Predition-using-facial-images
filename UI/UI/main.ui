@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>10</y>
+      <width>711</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(56, 58, 89);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTextEdit" name="txt_image">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>170</y>
+       <width>281</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextEdit{
+    background-color: white;
+    border-width: 2px;
+	color: #9b9bff;
+    border-radius: 10px;
+    border-color: beige;
+    font: Italic 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+
+</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="txt_name">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>250</y>
+       <width>281</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextEdit{
+    background-color: white;
+    border-width: 2px;
+	color: #9b9bff;
+    border-radius: 10px;
+    border-color: beige;
+    font: Italic 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_browse">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>340</y>
+       <width>186</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri Light</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>true</italic>
+       <bold>false</bold>
+       <kerning>false</kerning>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>QString s1 = QFileDialog::getOpenFileName(this, &quot;Open a file&quot;, &quot;directoryToOpen&quot;, &quot;Images (*.png *.xpm *.jpg);;Text files (*.txt);;XML files (*.xml)&quot;);</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    background-color: rgb(93, 93, 154);
+    border-width: 2px;
+	color: white;
+    border-radius: 10px;
+    border-color: beige;
+    font: Italic 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QPushButton:pressed {
+    background-color: #9b9bff;
+    border-style: inset;
+}
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Browse</string>
+     </property>
+     <property name="QString s1" stdset="0">
+      <string>QFileDialog::getOpenFileName(this, &quot;Open a file&quot;, &quot;directoryToOpen&quot;,
+        &quot;Images (*.png *.xpm *.jpg);;Text files (*.txt);;XML files (*.xml)&quot;);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_User_Image">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>180</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri Light</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(254, 121, 199);</string>
+     </property>
+     <property name="text">
+      <string>Image:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_User_name">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>260</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri Light</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(254, 121, 199);</string>
+     </property>
+     <property name="text">
+      <string>Name:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_User_Heading">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>80</y>
+       <width>371</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri Light</family>
+       <pointsize>24</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(254, 121, 199);</string>
+     </property>
+     <property name="text">
+      <string>USER INFORMATION</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_submit">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>410</y>
+       <width>182</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri Light</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    background-color: rgb(93, 93, 154);
+    border-width: 2px;
+	color: white;
+    border-radius: 10px;
+    border-color: beige;
+    font: bold italic 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QPushButton:pressed {
+    background-color: #9b9bff;
+    border-style: inset;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Process Image</string>
+     </property>
+    </widget>
+    <zorder>txt_name</zorder>
+    <zorder>txt_image</zorder>
+    <zorder>btn_browse</zorder>
+    <zorder>lbl_User_Image</zorder>
+    <zorder>lbl_User_name</zorder>
+    <zorder>lbl_User_Heading</zorder>
+    <zorder>btn_submit</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>672</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_submit</sender>
+   <signal>clicked()</signal>
+   <receiver>btn_submit</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>495</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>495</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
