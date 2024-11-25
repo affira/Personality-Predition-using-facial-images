@@ -51,11 +51,7 @@ By analyzing facial features, the model predicts binary traits for each factor, 
    git clone git@github.com:affira/Personality-Predition-using-facial-images.git 
    cd personality-prediction  
    ```  
-2. **Install Dependencies**:  
-   ```bash  
-   pip install -r requirements.txt  
-   ```  
-3. **Prepare the Dataset**:
+2. **Prepare the Dataset**:
    - Download the dataset and data for training and testing from the drive.
    - https://drive.google.com/drive/folders/1DRXzFFH_JqyCnKoJErBn7n8QVUQg5Kze?usp=sharing
    - Extract the datasset in the main folder "Model".
